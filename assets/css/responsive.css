@@ -1,0 +1,423 @@
+/* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+*/
+  
+@media (min-width: 320px) and (max-width: 480px) {
+
+  /* Global Section Start */
+  .btn {
+    color: #fff;
+    background: transparent;
+    padding: 10px 25px;
+    border: 1px solid #15a4fa;
+    border-radius: 2px;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .title {
+    color: #2d3950;
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 400;
+}
+  /* Global Section End */
+
+
+
+ 
+
+  .header-section {
+    width: 100%;
+    float: left;
+    background: #f6f9f9;
+    padding: 15px 0px;
+  }
+
+  .header-section .logo img {
+    width: 30%;
+  }
+  .simple-section {
+    width: 100%;
+    float: left;
+    background: #f6f9f9;
+    margin: 0 auto;
+    padding: 40px 0px;
+  }
+  .simple-inner p {
+    color: #999999;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    text-align: left;
+  }
+  .banner-inner {
+    width: 100%;
+    float: left;
+    padding: 30px 0px 0px;
+  }
+  .banner-inner h1 {
+    color: #fff;
+    font-size: 45px;
+    letter-spacing: 4px;
+    font-weight: 700;
+    line-height: 70px;
+    margin-bottom: 0px;
+  }
+  .banner-inner .divider {
+    width: 65%;
+    height: 2px;
+    background: #15a4fa;
+    margin: 0 auto;
+    margin-bottom: 25px;
+  }
+  .banner-inner .arrow {
+    padding-top: 70px;
+  }
+  .feature-section {
+    width: 100%;
+    float: left;
+    background: #ffffff;
+    padding: 10px 0px;
+  }
+  .feature-inner {
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding: 10px 20px 20px;
+  }
+  .portfolio-section {
+    width: 100%;
+    float: left;
+    background: #f6f9f9;
+    padding: 30px 0px 60px;
+  }
+  .portfolio-header p {
+    margin-bottom: 0px;
+  }
+  .contact-section {
+    width: 100%;
+    float: left;
+    background: #2c364a;
+    padding: 40px 0px 55px;
+  }
+  input[type=text], input[type=email], textarea {
+    width: 100%;
+    padding: 4px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    background: #2c364a;
+    margin-bottom: 15px;
+    font-size: 13px;
+  }
+  textarea {
+    height: 90px;
+    overflow: auto;
+    resize: vertical;
+  }
+  .contact-form a {
+    padding: 7px 31px;
+    font-size: 14px;
+    float: unset;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 12px;
+  }
+  .footer-section {
+    width: 100%;
+    float: left;
+    padding: 30px 0px;
+  }
+  .footer-right i {
+    padding-left: 10px;
+    margin-top: 6px;
+    color: #15a4fa;
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+
+}
+
+
+
+
+
+
+
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  /* Global Section Start */
+  .btn {
+    color: #fff;
+    background: transparent;
+    padding: 10px 25px;
+    border: 1px solid #15a4fa;
+    border-radius: 2px;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .title {
+    color: #2d3950;
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 400;
+}
+  /* Global Section End */
+
+
+
+ 
+
+  .header-section {
+    width: 100%;
+    float: left;
+    background: #f6f9f9;
+    padding: 15px 0px;
+  }
+
+  .header-section .logo img {
+    width: 30%;
+  }
+  .simple-section {
+    width: 100%;
+    float: left;
+    background: #f6f9f9;
+    margin: 0 auto;
+    padding: 40px 0px;
+  }
+  .simple-inner p {
+    color: #999999;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    text-align: left;
+  }
+  .banner-inner {
+    width: 100%;
+    float: left;
+    padding: 30px 0px 0px;
+  }
+  .banner-inner h1 {
+    color: #fff;
+    font-size: 45px;
+    letter-spacing: 4px;
+    font-weight: 700;
+    line-height: 70px;
+    margin-bottom: 0px;
+  }
+  .banner-inner .divider {
+    width: 65%;
+    height: 2px;
+    background: #15a4fa;
+    margin: 0 auto;
+    margin-bottom: 25px;
+  }
+  .banner-inner .arrow {
+    padding-top: 70px;
+  }
+  .feature-section {
+    width: 100%;
+    float: left;
+    background: #ffffff;
+    padding: 10px 0px;
+  }
+  .feature-inner {
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding: 10px 20px 35px;
+}
+  .feature-inner img {
+    margin-bottom: 25px;
+  }
+  .portfolio-section {
+    width: 100%;
+    float: left;
+    background: #f6f9f9;
+    padding: 30px 0px 60px;
+  }
+  .portfolio-header {
+    width: 100%;
+    float: left;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .portfolio-section .pro_img {
+    width: 100%;
+    margin-top: 30px;
+    text-align: center;
+  }
+  .contact-section {
+    width: 100%;
+    float: left;
+    background: #2c364a;
+    padding: 40px 0px 55px;
+  }
+  input[type=text], input[type=email], textarea {
+    width: 100%;
+    padding: 7px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    background: #2c364a;
+    margin-bottom: 15px;
+    font-size: 13px;
+  }
+  textarea {
+    height: 90px;
+    overflow: auto;
+    resize: vertical;
+  }
+  .contact-form a {
+    padding: 7px 31px;
+    font-size: 14px;
+    float: unset;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 12px;
+  }
+  .footer-section {
+    width: 100%;
+    float: left;
+    padding: 30px 0px;
+  }
+  .footer-right i {
+    padding-left: 15px;
+    margin-top: 3px;
+    color: #15a4fa;
+    font-size: 25px;
+    line-height: 35px;
+  }
+
+    
+}
+
+
+
+
+
+
+
+
+/* 
+##Device = Tablets, Ipads (landscape)
+##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .banner-inner .divider {
+    width: 45%;
+    height: 2px;
+    background: #15a4fa;
+    margin: 0 auto;
+    margin-bottom: 25px;
+  }
+  .title {
+    color: #2d3950;
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 400;
+  }
+  .simple-section {
+    width: 100%;
+    float: left;
+    background: #f6f9f9;
+    margin: 0 auto;
+    padding: 60px 0px;
+  }
+
+  .feature-section {
+    width: 100%;
+    float: left;
+    background: #ffffff;
+    padding: 20px 0px;
+  }
+  .portfolio-section {
+    width: 100%;
+    float: left;
+    background: #f6f9f9;
+    padding: 60px 0px 80px;
+  }
+  .contact-section {
+    width: 100%;
+    float: left;
+    background: #2c364a;
+    padding: 60px 0px 80px;
+  }
+  input[type=text], input[type=email], textarea {
+    width: 100%;
+    padding: 7px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    background: #2c364a;
+    margin-bottom: 15px;
+  }
+  textarea {
+    overflow: auto;
+    resize: vertical;
+    height: 120px;
+  }
+
+}
+
+
+/* Desktop */
+@media (min-width: 992px) and (max-width: 1024px) {
+  .title {
+    color: #2d3950;
+    font-size: 42px;
+    line-height: 52px;
+    font-weight: 400;
+  }
+  .simple-section {
+    width: 100%;
+    float: left;
+    background: #f6f9f9;
+    margin: 0 auto;
+    padding: 60px 0px;
+  }
+
+  .feature-section {
+    width: 100%;
+    float: left;
+    background: #ffffff;
+    padding: 20px 0px;
+  }
+  .portfolio-section {
+    width: 100%;
+    float: left;
+    background: #f6f9f9;
+    padding: 60px 0px 80px;
+  }
+  .contact-section {
+    width: 100%;
+    float: left;
+    background: #2c364a;
+    padding: 60px 0px 80px;
+  }
+  input[type=text], input[type=email], textarea {
+    width: 100%;
+    padding: 7px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    background: #2c364a;
+    margin-bottom: 15px;
+  }
+  textarea {
+    overflow: auto;
+    resize: vertical;
+    height: 150px;
+  }
+}
+
+
