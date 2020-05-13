@@ -236,6 +236,9 @@ input[type=text], input[type=email], textarea {
     background: #2c364a;
     margin-bottom: 15px;
   }
+  textarea {
+    height: 160px;
+  }
   .contact-form label {
       color: #fff;
   }
